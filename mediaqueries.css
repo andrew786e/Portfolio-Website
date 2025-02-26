@@ -22,7 +22,14 @@
   #experience,
   .experience-details-container {
     margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
   }
+
+  .details-container {
+    flex: 0.5;
+  }
+
   #profile,
   .section-container {
     display: block;
@@ -76,7 +83,7 @@
     font-size: 1rem;
   }
   .experience-sub-title {
-    font-size: 1.25rem;
+    font-size: 0.8rem;
   }
   .logo {
     font-size: 1.5rem;
@@ -100,4 +107,19 @@
   .text-container {
     text-align: justify;
   }
+}
+
+.about-containers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.details-container {
+  flex: 40%;
+  max-width: 40%;
+}
+
+.experience-sub-title {
+  font-size: 1.05rem;
 }
